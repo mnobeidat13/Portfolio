@@ -47,7 +47,7 @@ def get_projects_page():
                                             subtitle="Using machine learning to predict stock prices based on technical and fundamental indicators",
                                             image_link="https://raw.githubusercontent.com/mnobeidat13/flet-resources/main/bull%20bear.jpg",
                                             overview_link='/stock_market',
-                                            project_link=None,
+                                            project_link='https://www.kaggle.com/code/mohammedobeidat/predicting-stock-price-an-ml-approach',
                                             card_height=480))
 
     column_content =  [Row(project_cards[i:i+2], scroll='hidden', spacing=60, wrap=True) for i in range(0, len(project_cards), 2)]
